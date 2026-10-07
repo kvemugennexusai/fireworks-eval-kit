@@ -1,0 +1,197 @@
+{
+  "summary": {
+    "endpoint": "http://localhost:11434/v1",
+    "model": "llama3.1:8b",
+    "num_requests": 20,
+    "concurrency": 4,
+    "max_tokens": 256,
+    "temperature": 0.0,
+    "ok": 20,
+    "errors": 0,
+    "wall_s": 55.31,
+    "requests_per_s": 0.362,
+    "output_tokens_total": 4414,
+    "input_tokens_total": 616,
+    "system_throughput_tok_s": 79.8,
+    "ttft_s": {
+      "p50": 8.3167,
+      "p95": 8.9388,
+      "p99": 9.5121,
+      "mean": 7.5284
+    },
+    "itl_ms": {
+      "p50": 12.32,
+      "p95": 12.35,
+      "mean": 12.32
+    },
+    "latency_s": {
+      "p50": 10.957,
+      "p95": 12.042,
+      "p99": 12.045,
+      "mean": 10.235
+    },
+    "cost": null
+  },
+  "per_request": [
+    {
+      "ok": true,
+      "ttft": 0.12701379200007068,
+      "latency": 2.1970472499997413,
+      "out_tokens": 170,
+      "in_tokens": 30,
+      "err": ""
+    },
+    {
+      "ok": true,
+      "ttft": 5.438014584000484,
+      "latency": 8.580378917002236,
+      "out_tokens": 256,
+      "in_tokens": 33,
+      "err": ""
+    },
+    {
+      "ok": true,
+      "ttft": 8.63322962500024,
+      "latency": 10.445884958000534,
+      "out_tokens": 148,
+      "in_tokens": 31,
+      "err": ""
+    },
+    {
+      "ok": true,
+      "ttft": 2.246488209002564,
+      "latency": 5.379765334000695,
+      "out_tokens": 256,
+      "in_tokens": 30,
+      "err": ""
+    },
+    {
+      "ok": true,
+      "ttft": 8.307959333000326,
+      "latency": 11.451828625002236,
+      "out_tokens": 256,
+      "in_tokens": 31,
+      "err": ""
+    },
+    {
+      "ok": true,
+      "ttft": 8.318295207998744,
+      "latency": 11.457229457999347,
+      "out_tokens": 256,
+      "in_tokens": 30,
+      "err": ""
+    },
+    {
+      "ok": true,
+      "ttft": 8.315060040997196,
+      "latency": 10.692629582998052,
+      "out_tokens": 194,
+      "in_tokens": 32,
+      "err": ""
+    },
+    {
+      "ok": true,
+      "ttft": 8.879962749997503,
+      "latency": 12.020931541999744,
+      "out_tokens": 256,
+      "in_tokens": 29,
+      "err": ""
+    },
+    {
+      "ok": true,
+      "ttft": 8.87686508400293,
+      "latency": 10.956406792000053,
+      "out_tokens": 170,
+      "in_tokens": 30,
+      "err": ""
+    },
+    {
+      "ok": true,
+      "ttft": 7.817873875002988,
+      "latency": 10.957853583000542,
+      "out_tokens": 256,
+      "in_tokens": 33,
+      "err": ""
+    },
+    {
+      "ok": true,
+      "ttft": 8.579977332999988,
+      "latency": 10.39281737499914,
+      "out_tokens": 148,
+      "in_tokens": 31,
+      "err": ""
+    },
+    {
+      "ok": true,
+      "ttft": 7.252653916999407,
+      "latency": 10.392342999999528,
+      "out_tokens": 256,
+      "in_tokens": 30,
+      "err": ""
+    },
+    {
+      "ok": true,
+      "ttft": 8.312404917000094,
+      "latency": 11.4587959590026,
+      "out_tokens": 256,
+      "in_tokens": 31,
+      "err": ""
+    },
+    {
+      "ok": true,
+      "ttft": 8.318257499999163,
+      "latency": 11.468252665999898,
+      "out_tokens": 256,
+      "in_tokens": 30,
+      "err": ""
+    },
+    {
+      "ok": true,
+      "ttft": 9.655420167000557,
+      "latency": 12.041991707999841,
+      "out_tokens": 194,
+      "in_tokens": 32,
+      "err": ""
+    },
+    {
+      "ok": true,
+      "ttft": 8.901085875000717,
+      "latency": 12.046238040999015,
+      "out_tokens": 256,
+      "in_tokens": 29,
+      "err": ""
+    },
+    {
+      "ok": true,
+      "ttft": 8.900214500001312,
+      "latency": 10.985552041998744,
+      "out_tokens": 170,
+      "in_tokens": 30,
+      "err": ""
+    },
+    {
+      "ok": true,
+      "ttft": 7.83634237500155,
+      "latency": 10.978512000001501,
+      "out_tokens": 256,
+      "in_tokens": 33,
+      "err": ""
+    },
+    {
+      "ok": true,
+      "ttft": 8.592119000000821,
+      "latency": 10.402688666003087,
+      "out_tokens": 148,
+      "in_tokens": 31,
+      "err": ""
+    },
+    {
+      "ok": true,
+      "ttft": 7.258778542000073,
+      "latency": 10.400136749998637,
+      "out_tokens": 256,
+      "in_tokens": 30,
+      "err": ""
+    }
+  ]
+}

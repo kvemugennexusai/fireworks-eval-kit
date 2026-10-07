@@ -1,0 +1,10 @@
+{"input": "I was charged twice for my subscription this month and need one charge refunded.", "label": "billing"}
+{"input": "The mobile app crashes every time I open the dashboard on Android 14.", "label": "technical"}
+{"input": "I need to update the email address and phone number on my account.", "label": "account"}
+{"input": "My API requests started returning 429 errors even though I'm under my plan limit.", "label": "technical"}
+{"input": "Can you help me export all my invoices from last year as one PDF?", "label": "billing"}
+{"input": "I forgot my password and the reset email never arrives.", "label": "account"}
+{"input": "We want to switch from monthly to annual billing - will we get credited for the unused month?", "label": "billing"}
+{"input": "What are your office hours and where are you headquartered?", "label": "other"}
+{"input": "The inference endpoint latency spiked to several seconds during our demo.", "label": "technical"}
+{"input": "Please close my account and delete my saved payment method.", "label": "account"}

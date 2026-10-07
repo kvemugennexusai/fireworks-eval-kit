@@ -1,0 +1,82 @@
+{
+  "summary": {
+    "endpoint": "https://api.fireworks.ai/inference/v1",
+    "model": "accounts/fireworks/models/gpt-oss-120b",
+    "task": "classification",
+    "n": 10,
+    "errors": 0,
+    "accuracy": 0.7
+  },
+  "results": [
+    {
+      "input": "I was charged twice for my subscription this month and need one charge refunded.",
+      "output": "billing",
+      "gold": "billing",
+      "pred": "billing",
+      "correct": true
+    },
+    {
+      "input": "The mobile app crashes every time I open the dashboard on Android 14.",
+      "output": "technical",
+      "gold": "technical",
+      "pred": "technical",
+      "correct": true
+    },
+    {
+      "input": "I need to update the email address and phone number on my account.",
+      "output": "account",
+      "gold": "account",
+      "pred": "account",
+      "correct": true
+    },
+    {
+      "input": "My API requests started returning 429 errors even though I'm under my plan limit.",
+      "output": "",
+      "gold": "technical",
+      "pred": null,
+      "correct": false
+    },
+    {
+      "input": "Can you help me export all my invoices from last year as one PDF?",
+      "output": "billing",
+      "gold": "billing",
+      "pred": "billing",
+      "correct": true
+    },
+    {
+      "input": "I forgot my password and the reset email never arrives.",
+      "output": "account",
+      "gold": "account",
+      "pred": "account",
+      "correct": true
+    },
+    {
+      "input": "We want to switch from monthly to annual billing - will we get credited for the unused month?",
+      "output": "billing",
+      "gold": "billing",
+      "pred": "billing",
+      "correct": true
+    },
+    {
+      "input": "What are your office hours and where are you headquartered?",
+      "output": "<|channel|>analysis<|message|>We need to classify the support ticket into exactly one of: billing, technical, account, other. The user asks: \"What are your office hours and where are you headquartered?\" This is a general inquiry about company info, not billing, technical, or account. So category is \"other\".<|end|><|start|>",
+      "gold": "other",
+      "pred": "billing",
+      "correct": false
+    },
+    {
+      "input": "The inference endpoint latency spiked to several seconds during our demo.",
+      "output": "technical",
+      "gold": "technical",
+      "pred": "technical",
+      "correct": true
+    },
+    {
+      "input": "Please close my account and delete my saved payment method.",
+      "output": "",
+      "gold": "account",
+      "pred": null,
+      "correct": false
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "summary": {
+    "endpoint": "http://localhost:11434/v1",
+    "model": "llama3.1:8b",
+    "task": "classification",
+    "n": 10,
+    "errors": 0,
+    "accuracy": 0.8
+  },
+  "results": [
+    {
+      "input": "I was charged twice for my subscription this month and need one charge refunded.",
+      "output": "billing",
+      "gold": "billing",
+      "pred": "billing",
+      "correct": true
+    },
+    {
+      "input": "The mobile app crashes every time I open the dashboard on Android 14.",
+      "output": "technical",
+      "gold": "technical",
+      "pred": "technical",
+      "correct": true
+    },
+    {
+      "input": "I need to update the email address and phone number on my account.",
+      "output": "account",
+      "gold": "account",
+      "pred": "account",
+      "correct": true
+    },
+    {
+      "input": "My API requests started returning 429 errors even though I'm under my plan limit.",
+      "output": "technical",
+      "gold": "technical",
+      "pred": "technical",
+      "correct": true
+    },
+    {
+      "input": "Can you help me export all my invoices from last year as one PDF?",
+      "output": "billing",
+      "gold": "billing",
+      "pred": "billing",
+      "correct": true
+    },
+    {
+      "input": "I forgot my password and the reset email never arrives.",
+      "output": "technical",
+      "gold": "account",
+      "pred": "technical",
+      "correct": false
+    },
+    {
+      "input": "We want to switch from monthly to annual billing - will we get credited for the unused month?",
+      "output": "billing",
+      "gold": "billing",
+      "pred": "billing",
+      "correct": true
+    },
+    {
+      "input": "What are your office hours and where are you headquartered?",
+      "output": "account",
+      "gold": "other",
+      "pred": "account",
+      "correct": false
+    },
+    {
+      "input": "The inference endpoint latency spiked to several seconds during our demo.",
+      "output": "technical",
+      "gold": "technical",
+      "pred": "technical",
+      "correct": true
+    },
+    {
+      "input": "Please close my account and delete my saved payment method.",
+      "output": "account",
+      "gold": "account",
+      "pred": "account",
+      "correct": true
+    }
+  ]
+}

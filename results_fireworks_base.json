@@ -1,0 +1,202 @@
+{
+  "summary": {
+    "endpoint": "https://api.fireworks.ai/inference/v1",
+    "model": "accounts/fireworks/models/gpt-oss-120b",
+    "num_requests": 20,
+    "concurrency": 4,
+    "max_tokens": 256,
+    "temperature": 0.0,
+    "ok": 20,
+    "errors": 0,
+    "wall_s": 9.693,
+    "requests_per_s": 2.063,
+    "output_tokens_total": 5046,
+    "input_tokens_total": 1850,
+    "system_throughput_tok_s": 520.6,
+    "ttft_s": {
+      "p50": 1.3091,
+      "p95": 2.0177,
+      "p99": 2.0844,
+      "mean": 1.3626
+    },
+    "itl_ms": {
+      "p50": 1.84,
+      "p95": 2.8,
+      "mean": 1.72
+    },
+    "latency_s": {
+      "p50": 1.792,
+      "p95": 2.102,
+      "p99": 2.111,
+      "mean": 1.79
+    },
+    "cost": {
+      "mode": "per_token",
+      "total_usd": 0.0014,
+      "usd_per_1k_req": 0.069,
+      "usd_per_1M_output_tok": 0.2733
+    }
+  },
+  "per_request": [
+    {
+      "ok": true,
+      "ttft": 1.7546782919998805,
+      "latency": 2.1127771669998765,
+      "out_tokens": 256,
+      "in_tokens": 92,
+      "err": ""
+    },
+    {
+      "ok": true,
+      "ttft": 1.6421926660004829,
+      "latency": 1.9667163330013864,
+      "out_tokens": 256,
+      "in_tokens": 95,
+      "err": ""
+    },
+    {
+      "ok": true,
+      "ttft": 1.6985867920011515,
+      "latency": 1.9761950829997659,
+      "out_tokens": 256,
+      "in_tokens": 92,
+      "err": ""
+    },
+    {
+      "ok": true,
+      "ttft": 1.7087536670005647,
+      "latency": 1.7087536670005647,
+      "out_tokens": 256,
+      "in_tokens": 91,
+      "err": ""
+    },
+    {
+      "ok": true,
+      "ttft": 1.2843879590000142,
+      "latency": 1.7842101670030388,
+      "out_tokens": 256,
+      "in_tokens": 93,
+      "err": ""
+    },
+    {
+      "ok": true,
+      "ttft": 1.4690815000030852,
+      "latency": 1.942367584000749,
+      "out_tokens": 256,
+      "in_tokens": 91,
+      "err": ""
+    },
+    {
+      "ok": true,
+      "ttft": 1.4846525419998216,
+      "latency": 1.9508739590019104,
+      "out_tokens": 256,
+      "in_tokens": 94,
+      "err": ""
+    },
+    {
+      "ok": true,
+      "ttft": 1.333716416000243,
+      "latency": 1.8042405410014908,
+      "out_tokens": 256,
+      "in_tokens": 92,
+      "err": ""
+    },
+    {
+      "ok": true,
+      "ttft": 0.9503875830014294,
+      "latency": 1.7605833749985322,
+      "out_tokens": 219,
+      "in_tokens": 92,
+      "err": ""
+    },
+    {
+      "ok": true,
+      "ttft": 1.0803625420012395,
+      "latency": 1.688828125003056,
+      "out_tokens": 256,
+      "in_tokens": 95,
+      "err": ""
+    },
+    {
+      "ok": true,
+      "ttft": 1.1313198329989973,
+      "latency": 1.7990189579977596,
+      "out_tokens": 256,
+      "in_tokens": 92,
+      "err": ""
+    },
+    {
+      "ok": true,
+      "ttft": 2.013322666000022,
+      "latency": 2.013322666000022,
+      "out_tokens": 256,
+      "in_tokens": 91,
+      "err": ""
+    },
+    {
+      "ok": true,
+      "ttft": 1.1041605409991462,
+      "latency": 1.518623290998221,
+      "out_tokens": 256,
+      "in_tokens": 93,
+      "err": ""
+    },
+    {
+      "ok": true,
+      "ttft": 0.948329749997356,
+      "latency": 1.6498314999989816,
+      "out_tokens": 256,
+      "in_tokens": 91,
+      "err": ""
+    },
+    {
+      "ok": true,
+      "ttft": 1.4356133750006848,
+      "latency": 1.85430075000113,
+      "out_tokens": 256,
+      "in_tokens": 94,
+      "err": ""
+    },
+    {
+      "ok": true,
+      "ttft": 1.1992613339971285,
+      "latency": 1.649140166999132,
+      "out_tokens": 256,
+      "in_tokens": 92,
+      "err": ""
+    },
+    {
+      "ok": true,
+      "ttft": 0.7571274170004472,
+      "latency": 1.3337195420026546,
+      "out_tokens": 219,
+      "in_tokens": 92,
+      "err": ""
+    },
+    {
+      "ok": true,
+      "ttft": 1.2394482919989969,
+      "latency": 1.7695344169987948,
+      "out_tokens": 256,
+      "in_tokens": 95,
+      "err": ""
+    },
+    {
+      "ok": true,
+      "ttft": 0.9165061669991701,
+      "latency": 1.4144440419986495,
+      "out_tokens": 256,
+      "in_tokens": 92,
+      "err": ""
+    },
+    {
+      "ok": true,
+      "ttft": 2.10104766600125,
+      "latency": 2.10104766600125,
+      "out_tokens": 256,
+      "in_tokens": 91,
+      "err": ""
+    }
+  ]
+}
